@@ -1,0 +1,40 @@
+body{
+    margin:20px;
+}
+#bigContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0px;
+}
+h1{
+    font-size: 6em;
+    font-weight: bolder;
+}
+.cell{
+    width: 14em;
+    height:14em;
+    border:3px solid black;
+    border-collapse: collapse;
+    margin:0px;
+    text-align:center;
+    justify-content: center;
+}
+p{
+    font-size:5em;
+    font-weight: bold;
+}
+.top{
+    border-top: none;
+}
+.left{
+    border-left: none;
+}
+.right{
+    border-right: none;
+}
+.bot{
+    border-bottom: none;
+}
